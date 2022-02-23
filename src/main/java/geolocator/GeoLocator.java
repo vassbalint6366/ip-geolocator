@@ -5,7 +5,12 @@ import feign.Param;
 import feign.RequestLine;
 import feign.jackson.JacksonDecoder;
 
+
+
+
 public interface GeoLocator {
+
+
 
     @RequestLine("GET")
     GeoLocation getGeoLocation();
@@ -20,3 +25,5 @@ public interface GeoLocator {
     }
 
 }
+
+
